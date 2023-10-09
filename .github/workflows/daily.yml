@@ -1,10 +1,10 @@
-name: dailyreport
+name:  daily
 'on':
   schedule:
     - cron: 1 * * * *
 jobs:
   run:
-    name: Run dailyreport
+    name: Run daily
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
