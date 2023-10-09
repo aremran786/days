@@ -4,7 +4,7 @@ name: dailyreport
     - cron: 1 * * * *
 jobs:
   run:
-    name: Run Scheduled Task
+    name: Run dailyreport
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
